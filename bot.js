@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd' ,member => {
-  if(member.guild.id !== '451806679168712714') return;
+  if(member.guild.id !== '462347265747451914') return;
   setTimeout(function(){
   member.guild.channels.find(r => r.id === '463053311902351380').send('Welcome To **Bُubbles** Tumblr .');
 },3000);
